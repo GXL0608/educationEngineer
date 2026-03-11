@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-11T11:15:00Z",
+  "tasks": [
+    {
+      "id": "B1-CURRICULUM",
+      "scope": "program/CURRICULUM_UNIVERSE.md",
+      "status": "in_progress",
+      "owner": "A1",
+      "updatedAt": "2026-03-11T09:05:00Z"
+    },
+    {
+      "id": "B4-PAGE-SYSTEM",
+      "scope": "program/PAGE_MAP.md, apps/web/src/pages/*",
+      "status": "in_progress",
+      "owner": "A4",
+      "updatedAt": "2026-03-11T09:52:00Z"
+    },
+    {
+      "id": "B5-CONTENT-PIPELINE",
+      "scope": "apps/ai-service/app/*, apps/ai-service/scripts/*, content/*",
+      "status": "in_progress",
+      "owner": "A5",
+      "updatedAt": "2026-03-11T09:35:00Z"
+    },
+    {
+      "id": "B6-COMPONENT-LIBRARY",
+      "scope": "apps/web/src/components/*",
+      "status": "in_progress",
+      "owner": "A6",
+      "updatedAt": "2026-03-11T00:00:00Z"
+    },
+    {
+      "id": "B7-QUESTION-ENGINE",
+      "scope": "program/QUESTION_BANK_MODEL.md, apps/bff/src/assessment.controller.ts, apps/bff/src/content-store.ts",
+      "status": "in_progress",
+      "owner": "A7",
+      "updatedAt": "2026-03-11T08:58:00Z"
+    },
+    {
+      "id": "B8-WEB-MODULE",
+      "scope": "apps/web/*",
+      "status": "in_progress",
+      "owner": "A8",
+      "updatedAt": "2026-03-11T11:15:00Z"
+    },
+    {
+      "id": "B10-AGENT-INFRA",
+      "scope": "tools/*, program/RUNBOOK.md, program/TASK_CARD_TEMPLATE.md, program/DASHBOARD_V1.md",
+      "status": "done",
+      "owner": "A10",
+      "updatedAt": "2026-03-11T11:15:00Z"
+    },
+    {
+      "id": "B8-HOST-INTEGRATION",
+      "scope": "apps/web/src/lib/host-bridge.ts, apps/web/src/store/host-store.ts, apps/bff/src/host.controller.ts, apps/bff/src/user.controller.ts",
+      "status": "done",
+      "owner": "A8",
+      "updatedAt": "2026-03-11T11:15:00Z"
+    },
+    {
+      "id": "B11-EVAL-COMPLIANCE",
+      "scope": "program/BENCHMARKS/*, program/ARTIFACTS/*, program/COMPLIANCE_RELEASE_PACK.md",
+      "status": "done",
+      "owner": "A11",
+      "updatedAt": "2026-03-11T11:15:00Z"
+    }
+  ]
+}

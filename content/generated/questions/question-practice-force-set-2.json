@@ -1,0 +1,27 @@
+{
+  "id": "question-practice-force-set-2",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-1",
+    "title": "力与受力分析"
+  },
+  "knowledgePoints": [
+    "受力分析概念画布",
+    "边界优先"
+  ],
+  "type": "简答题",
+  "stem": "为什么先画研究对象再列力，而不是反过来？",
+  "choices": [],
+  "answer": "因为力的归属依赖研究对象，研究对象不清就会把外部系统的力混入。",
+  "analysis": "边界优先",
+  "difficulty": "medium",
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-force-set"
+  }
+}

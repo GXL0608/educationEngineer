@@ -1,0 +1,27 @@
+{
+  "id": "question-practice-force-set-1",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-1",
+    "title": "力与受力分析"
+  },
+  "knowledgePoints": [
+    "受力分析概念画布",
+    "区分必然力与条件力"
+  ],
+  "type": "简答题",
+  "stem": "斜面静止木块的受力图中，哪些力一定存在？",
+  "choices": [],
+  "answer": "重力、支持力；是否存在摩擦力取决于相对滑动趋势。",
+  "analysis": "区分必然力与条件力",
+  "difficulty": "easy",
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-force-set"
+  }
+}

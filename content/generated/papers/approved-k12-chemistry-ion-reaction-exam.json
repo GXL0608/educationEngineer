@@ -1,0 +1,40 @@
+{
+  "id": "approved-k12-chemistry-ion-reaction-exam",
+  "title": "高中化学：离子反应与离子方程式 导入专题卷",
+  "stage": "K12",
+  "subject": "化学",
+  "course": {
+    "id": "approved-k12-chemistry-ion-reaction",
+    "title": "高中化学：离子反应与离子方程式"
+  },
+  "chapter": {
+    "id": "approved-k12-chemistry-ion-reaction-chapter-1",
+    "title": "高中化学：离子反应与离子方程式"
+  },
+  "paperType": "chapter_exam",
+  "durationMinutes": 36,
+  "questionIds": [
+    "question-approved-k12-chemistry-ion-reaction-practice-1",
+    "question-approved-k12-chemistry-ion-reaction-practice-2",
+    "question-approved-k12-chemistry-ion-reaction-practice-3"
+  ],
+  "sections": [
+    {
+      "id": "approved-k12-chemistry-ion-reaction-exam-section-1",
+      "title": "导入题 3 题",
+      "targetCount": 3,
+      "questionIds": [
+        "question-approved-k12-chemistry-ion-reaction-practice-1",
+        "question-approved-k12-chemistry-ion-reaction-practice-3"
+      ]
+    },
+    {
+      "id": "approved-k12-chemistry-ion-reaction-exam-section-2",
+      "title": "迁移解释 1 题",
+      "targetCount": 1,
+      "questionIds": [
+        "question-approved-k12-chemistry-ion-reaction-practice-2"
+      ]
+    }
+  ]
+}

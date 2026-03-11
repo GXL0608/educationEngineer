@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "note-force-1",
+      "title": "受力分析第一法则",
+      "tag": "K12 物理",
+      "summary": "先画研究对象，再列力，最后才进入公式。"
+    },
+    {
+      "id": "note-series-1",
+      "title": "级数判别顺序",
+      "tag": "本科 数学",
+      "summary": "结构优先于套路，先识别项型再选方法。"
+    },
+    {
+      "id": "note-paper-1",
+      "title": "证据链拆解模板",
+      "tag": "博士 文献",
+      "summary": "claim / evidence / assumption / limitation 四列并排。"
+    },
+    {
+      "id": "note-approved-k12-chemistry-ion-reaction",
+      "title": "高中化学：离子反应与离子方程式",
+      "tag": "K12 化学 导入",
+      "summary": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。"
+    }
+  ]
+}

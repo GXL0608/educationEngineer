@@ -1,0 +1,27 @@
+{
+  "id": "question-practice-newton-second-1",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-2",
+    "title": "牛顿第二定律"
+  },
+  "knowledgePoints": [
+    "牛顿第二定律关系链",
+    "联立求解"
+  ],
+  "type": "简答题",
+  "stem": "同一题目中合力公式和约束方程为什么必须一起用？",
+  "choices": [],
+  "answer": "因为未知量往往不止一个，单独用 F=ma 无法解出目标量。",
+  "analysis": "联立求解",
+  "difficulty": "easy",
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-newton-second"
+  }
+}

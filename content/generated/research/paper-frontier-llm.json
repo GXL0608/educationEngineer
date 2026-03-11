@@ -1,0 +1,22 @@
+{
+  "id": "paper-frontier-llm",
+  "title": "前沿文献：证据链拆解",
+  "paragraphs": [
+    "研究型阅读要求你同时追踪 claim、evidence、assumption 和 limitation。",
+    "没有 evidence mapping 的精读，通常无法转化成真正可复用的研究判断。"
+  ],
+  "nodes": [
+    "Claim",
+    "Evidence",
+    "Assumption",
+    "Limitation",
+    "Gap",
+    "Future Work"
+  ],
+  "chain": [
+    "claim 提取",
+    "evidence 对应",
+    "gap 识别",
+    "future work 推导"
+  ]
+}

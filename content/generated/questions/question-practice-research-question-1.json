@@ -1,0 +1,27 @@
+{
+  "id": "question-practice-research-question-1",
+  "stage": "master",
+  "subject": "研究方法",
+  "course": {
+    "id": "master-research-methods",
+    "title": "硕士研究方法：研究问题与研究设计"
+  },
+  "chapter": {
+    "id": "rm-1",
+    "title": "研究问题界定"
+  },
+  "knowledgePoints": [
+    "研究问题结构图",
+    "主题与问题区分"
+  ],
+  "type": "论述题",
+  "stem": "“人工智能与教育”为什么不是一个合格研究问题？",
+  "choices": [],
+  "answer": "因为它只有主题，没有对象、关系、边界和可验证表达。",
+  "analysis": "主题与问题区分",
+  "difficulty": "medium",
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-research-question"
+  }
+}

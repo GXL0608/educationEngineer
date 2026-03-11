@@ -1,0 +1,17 @@
+{
+  "course": {
+    "id": "approved-k12-chemistry-ion-reaction",
+    "title": "高中化学：离子反应与离子方程式",
+    "subject": "化学"
+  },
+  "chapter": {
+    "id": "approved-k12-chemistry-ion-reaction-chapter-1",
+    "title": "高中化学：离子反应与离子方程式",
+    "summary": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+    "lessonId": "approved-k12-chemistry-ion-reaction-lesson",
+    "conceptId": "approved-k12-chemistry-ion-reaction-concept",
+    "practiceId": "approved-k12-chemistry-ion-reaction-practice",
+    "examId": "approved-k12-chemistry-ion-reaction-exam",
+    "paperId": "approved-k12-chemistry-ion-reaction-research"
+  }
+}

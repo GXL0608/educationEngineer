@@ -1,0 +1,44 @@
+{
+  "id": "exam-force-unit",
+  "title": "受力分析单元卷",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-1",
+    "title": "力与受力分析"
+  },
+  "paperType": "chapter_exam",
+  "durationMinutes": 35,
+  "questionIds": [
+    "question-practice-force-set-1",
+    "question-practice-force-set-2"
+  ],
+  "sections": [
+    {
+      "id": "exam-force-unit-section-1",
+      "title": "选择题 8 题",
+      "targetCount": 8,
+      "questionIds": [
+        "question-practice-force-set-1"
+      ]
+    },
+    {
+      "id": "exam-force-unit-section-2",
+      "title": "受力图绘制 2 题",
+      "targetCount": 2,
+      "questionIds": [
+        "question-practice-force-set-2"
+      ]
+    },
+    {
+      "id": "exam-force-unit-section-3",
+      "title": "综合分析 1 题",
+      "targetCount": 1,
+      "questionIds": []
+    }
+  ]
+}

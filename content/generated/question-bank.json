@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "id": "question-practice-force-set-1",
+      "stage": "K12",
+      "subject": "物理",
+      "courseId": "k12-physics-forces",
+      "chapterId": "force-1",
+      "type": "简答题",
+      "difficulty": "easy",
+      "knowledgePoints": [
+        "受力分析概念画布",
+        "区分必然力与条件力"
+      ],
+      "stem": "斜面静止木块的受力图中，哪些力一定存在？"
+    },
+    {
+      "id": "question-practice-force-set-2",
+      "stage": "K12",
+      "subject": "物理",
+      "courseId": "k12-physics-forces",
+      "chapterId": "force-1",
+      "type": "简答题",
+      "difficulty": "medium",
+      "knowledgePoints": [
+        "受力分析概念画布",
+        "边界优先"
+      ],
+      "stem": "为什么先画研究对象再列力，而不是反过来？"
+    },
+    {
+      "id": "question-practice-newton-second-1",
+      "stage": "K12",
+      "subject": "物理",
+      "courseId": "k12-physics-forces",
+      "chapterId": "force-2",
+      "type": "简答题",
+      "difficulty": "easy",
+      "knowledgePoints": [
+        "牛顿第二定律关系链",
+        "联立求解"
+      ],
+      "stem": "同一题目中合力公式和约束方程为什么必须一起用？"
+    },
+    {
+      "id": "question-practice-series-criteria-1",
+      "stage": "undergraduate",
+      "subject": "数学",
+      "courseId": "ug-calculus-series",
+      "chapterId": "series-1",
+      "type": "证明题",
+      "difficulty": "medium",
+      "knowledgePoints": [
+        "级数判别法决策图",
+        "结构决定方法"
+      ],
+      "stem": "面对含阶乘和指数的级数，为什么常优先考虑比值法？"
+    },
+    {
+      "id": "question-practice-research-question-1",
+      "stage": "master",
+      "subject": "研究方法",
+      "courseId": "master-research-methods",
+      "chapterId": "rm-1",
+      "type": "论述题",
+      "difficulty": "medium",
+      "knowledgePoints": [
+        "研究问题结构图",
+        "主题与问题区分"
+      ],
+      "stem": "“人工智能与教育”为什么不是一个合格研究问题？"
+    },
+    {
+      "id": "question-practice-evidence-chain-1",
+      "stage": "doctor",
+      "subject": "学术研究",
+      "courseId": "doctor-frontier-reading",
+      "chapterId": "phd-1",
+      "type": "文献理解题",
+      "difficulty": "hard",
+      "knowledgePoints": [
+        "证据链拆解图",
+        "证据边界意识"
+      ],
+      "stem": "文献中的 limitation 为什么不能并入 evidence？"
+    },
+    {
+      "id": "question-approved-k12-chemistry-ion-reaction-practice-1",
+      "stage": "K12",
+      "subject": "化学",
+      "courseId": "approved-k12-chemistry-ion-reaction",
+      "chapterId": "approved-k12-chemistry-ion-reaction-chapter-1",
+      "type": "简答题",
+      "difficulty": "easy",
+      "knowledgePoints": [
+        "高中化学：离子反应与离子方程式 概念图",
+        "化学核心概念"
+      ],
+      "stem": "围绕“化学核心概念”解释这段材料的核心判断：离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。"
+    },
+    {
+      "id": "question-approved-k12-chemistry-ion-reaction-practice-2",
+      "stage": "K12",
+      "subject": "化学",
+      "courseId": "approved-k12-chemistry-ion-reaction",
+      "chapterId": "approved-k12-chemistry-ion-reaction-chapter-1",
+      "type": "简答题",
+      "difficulty": "medium",
+      "knowledgePoints": [
+        "高中化学：离子反应与离子方程式 概念图",
+        "高中化学：离子反应与离子方程式训练题型"
+      ],
+      "stem": "围绕“高中化学：离子反应与离子方程式训练题型”解释这段材料的核心判断：书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。"
+    },
+    {
+      "id": "question-approved-k12-chemistry-ion-reaction-practice-3",
+      "stage": "K12",
+      "subject": "化学",
+      "courseId": "approved-k12-chemistry-ion-reaction",
+      "chapterId": "approved-k12-chemistry-ion-reaction-chapter-1",
+      "type": "简答题",
+      "difficulty": "medium",
+      "knowledgePoints": [
+        "高中化学：离子反应与离子方程式 概念图",
+        "高中化学：离子反应与离子方程式延伸研究"
+      ],
+      "stem": "围绕“高中化学：离子反应与离子方程式延伸研究”解释这段材料的核心判断：遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。"
+    }
+  ]
+}

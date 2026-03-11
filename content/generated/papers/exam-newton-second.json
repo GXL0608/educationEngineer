@@ -1,0 +1,41 @@
+{
+  "id": "exam-newton-second",
+  "title": "牛顿第二定律专题卷",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-2",
+    "title": "牛顿第二定律"
+  },
+  "paperType": "chapter_exam",
+  "durationMinutes": 45,
+  "questionIds": [
+    "question-practice-newton-second-1"
+  ],
+  "sections": [
+    {
+      "id": "exam-newton-second-section-1",
+      "title": "选择题 6 题",
+      "targetCount": 6,
+      "questionIds": [
+        "question-practice-newton-second-1"
+      ]
+    },
+    {
+      "id": "exam-newton-second-section-2",
+      "title": "计算题 3 题",
+      "targetCount": 3,
+      "questionIds": []
+    },
+    {
+      "id": "exam-newton-second-section-3",
+      "title": "压轴迁移题 1 题",
+      "targetCount": 1,
+      "questionIds": []
+    }
+  ]
+}

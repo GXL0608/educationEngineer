@@ -1,0 +1,16 @@
+{
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律",
+    "subject": "物理"
+  },
+  "chapter": {
+    "id": "force-1",
+    "title": "力与受力分析",
+    "summary": "建立受力图、平衡条件与常见错误识别。",
+    "lessonId": "lesson-force-focus",
+    "conceptId": "concept-force-map",
+    "practiceId": "practice-force-set",
+    "examId": "exam-force-unit"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "exam-force-unit",
+  "title": "受力分析单元卷",
+  "durationMinutes": 35,
+  "sections": [
+    "选择题 8 题",
+    "受力图绘制 2 题",
+    "综合分析 1 题"
+  ]
+}

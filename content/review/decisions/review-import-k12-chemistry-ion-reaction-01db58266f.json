@@ -1,0 +1,8 @@
+{
+  "taskId": "review-import-k12-chemistry-ion-reaction-01db58266f",
+  "jobId": "import-k12-chemistry-ion-reaction-01db58266f",
+  "decision": "approved",
+  "reviewer": "A11-reviewer",
+  "notes": "结构清晰，可进入 approved 队列。",
+  "artifactPath": "content/review/approved/import-k12-chemistry-ion-reaction-01db58266f.json"
+}

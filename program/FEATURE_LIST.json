@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-11T11:45:00Z",
+  "features": [
+    {
+      "id": "core-web-shell",
+      "name": "Web 模块壳层",
+      "status": "api_connected"
+    },
+    {
+      "id": "curriculum-universe",
+      "name": "课程宇宙模型",
+      "status": "release_merged"
+    },
+    {
+      "id": "reading-experience",
+      "name": "精读学习页",
+      "status": "api_connected"
+    },
+    {
+      "id": "concept-canvas",
+      "name": "概念讲解页",
+      "status": "api_connected"
+    },
+    {
+      "id": "practice-engine",
+      "name": "练习训练引擎",
+      "status": "result_persisted"
+    },
+    {
+      "id": "exam-engine",
+      "name": "试卷考试引擎",
+      "status": "result_persisted"
+    },
+    {
+      "id": "research-workbench",
+      "name": "文献研究页",
+      "status": "api_connected"
+    },
+    {
+      "id": "mistake-review",
+      "name": "错题与复习",
+      "status": "persisted"
+    },
+    {
+      "id": "learning-report",
+      "name": "学习报告",
+      "status": "mastery_modeled"
+    },
+    {
+      "id": "user-state",
+      "name": "用户状态持久化",
+      "status": "outcome_persisted"
+    },
+    {
+      "id": "agent-harness",
+      "name": "多智能体 Harness",
+      "status": "task_card_ready"
+    },
+    {
+      "id": "content-factory",
+      "name": "内容工厂",
+      "status": "release_ready"
+    },
+    {
+      "id": "content-import-pipeline",
+      "name": "内容导入与审核",
+      "status": "review_actionable"
+    },
+    {
+      "id": "review-workbench",
+      "name": "审核工作台",
+      "status": "release_actionable"
+    },
+    {
+      "id": "embed-contract",
+      "name": "宿主嵌入协议",
+      "status": "runtime_connected"
+    },
+    {
+      "id": "host-user-identity",
+      "name": "宿主真实用户透传",
+      "status": "auth_verified"
+    },
+    {
+      "id": "benchmark-pack",
+      "name": "Benchmark / A-B / Trace",
+      "status": "documented_v1"
+    },
+    {
+      "id": "design-system-docs",
+      "name": "认知机制与设计系统",
+      "status": "documented_v1"
+    },
+    {
+      "id": "compliance-release-pack",
+      "name": "合规与发布材料",
+      "status": "documented_v1"
+    }
+  ]
+}

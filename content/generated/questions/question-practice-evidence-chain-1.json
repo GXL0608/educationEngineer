@@ -1,0 +1,27 @@
+{
+  "id": "question-practice-evidence-chain-1",
+  "stage": "doctor",
+  "subject": "学术研究",
+  "course": {
+    "id": "doctor-frontier-reading",
+    "title": "博士前沿文献精读：论证链与证据链"
+  },
+  "chapter": {
+    "id": "phd-1",
+    "title": "证据链拆解"
+  },
+  "knowledgePoints": [
+    "证据链拆解图",
+    "证据边界意识"
+  ],
+  "type": "文献理解题",
+  "stem": "文献中的 limitation 为什么不能并入 evidence？",
+  "choices": [],
+  "answer": "因为 limitation 描述的是证据边界，不是支持结论的证据本身。",
+  "analysis": "证据边界意识",
+  "difficulty": "hard",
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-evidence-chain"
+  }
+}

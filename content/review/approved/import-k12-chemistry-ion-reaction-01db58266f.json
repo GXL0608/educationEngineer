@@ -1,0 +1,122 @@
+{
+  "decision": "approved",
+  "reviewer": "A11-reviewer",
+  "notes": "结构清晰，可进入 approved 队列。",
+  "job": {
+    "id": "import-k12-chemistry-ion-reaction-01db58266f",
+    "sourceName": "k12-chemistry-ion-reaction",
+    "stage": "K12",
+    "subject": "化学",
+    "title": "高中化学：离子反应与离子方程式",
+    "status": "approved",
+    "draftPath": "content/review/drafts/import-k12-chemistry-ion-reaction-01db58266f.json",
+    "sourcePath": "content/imports/inbox/k12-chemistry-ion-reaction.json",
+    "artifactPath": "content/review/approved/import-k12-chemistry-ion-reaction-01db58266f.json",
+    "metadata": {
+      "paragraphCount": 3,
+      "knowledgeUnitCount": 3,
+      "questionCount": 3,
+      "excerpt": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+      "lastDecision": "approved",
+      "decisionRecordedAt": "2026-03-11T08:55:51+00:00",
+      "decisionArtifactPath": "content/review/decisions/review-import-k12-chemistry-ion-reaction-01db58266f.json"
+    },
+    "createdAt": "2026-03-11T08:55:02+00:00",
+    "updatedAt": "2026-03-11T08:55:51+00:00"
+  },
+  "draft": {
+    "jobId": "import-k12-chemistry-ion-reaction-01db58266f",
+    "sourceName": "k12-chemistry-ion-reaction",
+    "stage": "K12",
+    "subject": "化学",
+    "title": "高中化学：离子反应与离子方程式",
+    "rawText": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。\n\n书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。\n\n遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。",
+    "paragraphs": [
+      "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+      "书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。",
+      "遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。"
+    ],
+    "knowledgeUnits": [
+      {
+        "name": "化学核心概念",
+        "kind": "concept"
+      },
+      {
+        "name": "高中化学：离子反应与离子方程式训练题型",
+        "kind": "practice"
+      },
+      {
+        "name": "高中化学：离子反应与离子方程式延伸研究",
+        "kind": "research"
+      }
+    ],
+    "script": {
+      "title": "高中化学：离子反应与离子方程式",
+      "focus": "化学核心概念",
+      "timeline": [
+        {
+          "time": "00:08",
+          "label": "问题导入"
+        },
+        {
+          "time": "00:32",
+          "label": "概念拆解"
+        },
+        {
+          "time": "01:05",
+          "label": "题型迁移"
+        }
+      ],
+      "paragraphs": [
+        "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+        "书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。",
+        "遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。"
+      ]
+    },
+    "questionSet": {
+      "title": "高中化学：离子反应与离子方程式 导入题组",
+      "items": [
+        {
+          "id": "import-k12-chemistry-ion-reaction-01db58266f-q1",
+          "stage": "K12",
+          "subject": "化学",
+          "type": "简答题",
+          "knowledgePoint": "化学核心概念",
+          "stem": "围绕“化学核心概念”解释这段材料的核心判断：离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+          "answer": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+          "analysis": "本题聚焦 化学核心概念，要求从材料中抽取关键逻辑而不是复述标题。",
+          "difficulty": "easy"
+        },
+        {
+          "id": "import-k12-chemistry-ion-reaction-01db58266f-q2",
+          "stage": "K12",
+          "subject": "化学",
+          "type": "简答题",
+          "knowledgePoint": "高中化学：离子反应与离子方程式训练题型",
+          "stem": "围绕“高中化学：离子反应与离子方程式训练题型”解释这段材料的核心判断：书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。",
+          "answer": "书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。",
+          "analysis": "本题聚焦 高中化学：离子反应与离子方程式训练题型，要求从材料中抽取关键逻辑而不是复述标题。",
+          "difficulty": "medium"
+        },
+        {
+          "id": "import-k12-chemistry-ion-reaction-01db58266f-q3",
+          "stage": "K12",
+          "subject": "化学",
+          "type": "简答题",
+          "knowledgePoint": "高中化学：离子反应与离子方程式延伸研究",
+          "stem": "围绕“高中化学：离子反应与离子方程式延伸研究”解释这段材料的核心判断：遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。",
+          "answer": "遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。",
+          "analysis": "本题聚焦 高中化学：离子反应与离子方程式延伸研究，要求从材料中抽取关键逻辑而不是复述标题。",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "reviewChecklist": [
+      "标题是否准确",
+      "概念拆解是否清楚",
+      "题目是否能覆盖原始材料主旨",
+      "是否适合教学页直接展示"
+    ],
+    "status": "approved"
+  }
+}

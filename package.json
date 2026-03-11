@@ -1,0 +1,19 @@
+{
+  "name": "education-engineer",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "build": "pnpm --dir apps/web build && pnpm --dir apps/bff build",
+    "content:build": "python3 apps/ai-service/scripts/build_content_packages.py",
+    "content:release-build": "python3 apps/ai-service/scripts/build_content_packages.py",
+    "content:import-batch": "python3 apps/ai-service/scripts/import_content_batch.py",
+    "dev:web": "pnpm --dir apps/web dev",
+    "dev:bff": "pnpm --dir apps/bff dev",
+    "bff:test": "pnpm --dir apps/bff test",
+    "task:status": "node tools/task-lock.mjs status",
+    "task:claim": "node tools/task-lock.mjs claim",
+    "task:release": "node tools/task-lock.mjs release",
+    "web:test": "pnpm --dir apps/web test --run"
+  }
+}

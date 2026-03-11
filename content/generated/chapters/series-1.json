@@ -1,0 +1,16 @@
+{
+  "course": {
+    "id": "ug-calculus-series",
+    "title": "高等数学：级数与收敛性",
+    "subject": "数学"
+  },
+  "chapter": {
+    "id": "series-1",
+    "title": "数项级数与判别法",
+    "summary": "比较常见判别法和适用边界。",
+    "lessonId": "lesson-series-criteria",
+    "conceptId": "concept-series-criteria",
+    "practiceId": "practice-series-criteria",
+    "examId": "exam-series-mid"
+  }
+}

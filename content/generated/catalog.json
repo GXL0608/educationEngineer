@@ -1,0 +1,162 @@
+{
+  "stages": [
+    {
+      "id": "K12",
+      "title": "K12",
+      "subtitle": "覆盖教材、章节学习、单元练习和阶段测",
+      "subjects": 9
+    },
+    {
+      "id": "undergraduate",
+      "title": "本科",
+      "subtitle": "覆盖公共基础课和专业核心课程",
+      "subjects": 18
+    },
+    {
+      "id": "master",
+      "title": "硕士",
+      "subtitle": "覆盖研究方法、课程专题和文献综述",
+      "subjects": 12
+    },
+    {
+      "id": "doctor",
+      "title": "博士",
+      "subtitle": "覆盖资格考试、前沿文献和研究设计",
+      "subjects": 8
+    }
+  ],
+  "courses": [
+    {
+      "id": "k12-physics-forces",
+      "stage": "K12",
+      "subject": "物理",
+      "title": "高中物理：牛顿运动定律",
+      "audience": "高中物理同步学习 / 单元复习 / 考前强化",
+      "description": "面向 K12 的精读、概念讲解、例题训练和阶段测闭环。",
+      "chapters": [
+        {
+          "id": "force-1",
+          "title": "力与受力分析",
+          "summary": "建立受力图、平衡条件与常见错误识别。",
+          "lessonId": "lesson-force-focus",
+          "conceptId": "concept-force-map",
+          "practiceId": "practice-force-set",
+          "examId": "exam-force-unit"
+        },
+        {
+          "id": "force-2",
+          "title": "牛顿第二定律",
+          "summary": "打通公式理解、推导逻辑和题型迁移。",
+          "lessonId": "lesson-newton-second",
+          "conceptId": "concept-newton-second",
+          "practiceId": "practice-newton-second",
+          "examId": "exam-newton-second"
+        }
+      ],
+      "metrics": {
+        "lessons": 18,
+        "practices": 126,
+        "reports": "单元掌握度 + 错题追踪"
+      }
+    },
+    {
+      "id": "ug-calculus-series",
+      "stage": "undergraduate",
+      "subject": "数学",
+      "title": "高等数学：级数与收敛性",
+      "audience": "本科公共基础课 / 期中期末 / 考研前置",
+      "description": "面向推导型课程的精读、概念结构图和证明题训练。",
+      "chapters": [
+        {
+          "id": "series-1",
+          "title": "数项级数与判别法",
+          "summary": "比较常见判别法和适用边界。",
+          "lessonId": "lesson-series-criteria",
+          "conceptId": "concept-series-criteria",
+          "practiceId": "practice-series-criteria",
+          "examId": "exam-series-mid"
+        }
+      ],
+      "metrics": {
+        "lessons": 11,
+        "practices": 82,
+        "reports": "章节掌握度 + 证明题表现"
+      }
+    },
+    {
+      "id": "master-research-methods",
+      "stage": "master",
+      "subject": "研究方法",
+      "title": "硕士研究方法：研究问题与研究设计",
+      "audience": "硕士课程 / 文献综述 / 开题准备",
+      "description": "将研究问题、方法选择和论证结构拆成教程单元。",
+      "chapters": [
+        {
+          "id": "rm-1",
+          "title": "研究问题界定",
+          "summary": "识别问题、边界、变量和贡献点。",
+          "lessonId": "lesson-research-question",
+          "conceptId": "concept-research-frame",
+          "practiceId": "practice-research-question",
+          "examId": "exam-research-design",
+          "paperId": "paper-methodology"
+        }
+      ],
+      "metrics": {
+        "lessons": 9,
+        "practices": 34,
+        "reports": "研究路径建议 + 薄弱点提示"
+      }
+    },
+    {
+      "id": "doctor-frontier-reading",
+      "stage": "doctor",
+      "subject": "学术研究",
+      "title": "博士前沿文献精读：论证链与证据链",
+      "audience": "博士资格考试 / 前沿阅读 / 论文开题",
+      "description": "将前沿论文转成结构化论证树和证据链工作台。",
+      "chapters": [
+        {
+          "id": "phd-1",
+          "title": "证据链拆解",
+          "summary": "识别 claim、evidence、gap 与 future work。",
+          "lessonId": "lesson-evidence-chain",
+          "conceptId": "concept-evidence-chain",
+          "practiceId": "practice-evidence-chain",
+          "examId": "exam-evidence-chain",
+          "paperId": "paper-frontier-llm"
+        }
+      ],
+      "metrics": {
+        "lessons": 7,
+        "practices": 20,
+        "reports": "研究笔记 + 文献结构质量"
+      }
+    },
+    {
+      "id": "approved-k12-chemistry-ion-reaction",
+      "stage": "K12",
+      "subject": "化学",
+      "title": "高中化学：离子反应与离子方程式",
+      "audience": "K12 化学 导入专题 / 审核通过内容",
+      "description": "由审核通过的导入内容自动转换为正式课程包，进入课程宇宙发布链路。",
+      "chapters": [
+        {
+          "id": "approved-k12-chemistry-ion-reaction-chapter-1",
+          "title": "高中化学：离子反应与离子方程式",
+          "summary": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+          "lessonId": "approved-k12-chemistry-ion-reaction-lesson",
+          "conceptId": "approved-k12-chemistry-ion-reaction-concept",
+          "practiceId": "approved-k12-chemistry-ion-reaction-practice",
+          "examId": "approved-k12-chemistry-ion-reaction-exam",
+          "paperId": "approved-k12-chemistry-ion-reaction-research"
+        }
+      ],
+      "metrics": {
+        "lessons": 1,
+        "practices": 3,
+        "reports": "导入专题学习报告 + 审核追踪"
+      }
+    }
+  ]
+}

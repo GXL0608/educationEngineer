@@ -1,0 +1,19 @@
+{
+  "builtAt": "2026-03-11T09:04:19+00:00",
+  "catalogPath": "content/generated/catalog.json",
+  "manifestPath": "content/generated/manifest.json",
+  "courseCount": 5,
+  "questionCount": 9,
+  "paperCount": 6,
+  "approvedImportCount": 1,
+  "approvedImports": [
+    {
+      "courseId": "approved-k12-chemistry-ion-reaction",
+      "title": "高中化学：离子反应与离子方程式",
+      "stage": "K12",
+      "subject": "化学",
+      "sourceName": "k12-chemistry-ion-reaction",
+      "artifactPath": "content/review/approved/import-k12-chemistry-ion-reaction-01db58266f.json"
+    }
+  ]
+}

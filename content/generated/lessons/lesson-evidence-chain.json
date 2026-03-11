@@ -1,0 +1,23 @@
+{
+  "id": "lesson-evidence-chain",
+  "title": "证据链拆解",
+  "paragraphs": [
+    "文献精读时最常见的问题是只记结论，不记结论是如何被支撑起来的。",
+    "证据链拆解要求你把 claim、evidence、assumption 和 limitation 分开。",
+    "只有当你能复述证据链，你才真正具备研究型阅读能力。"
+  ],
+  "timeline": [
+    {
+      "label": "识别 claim",
+      "time": "00:10"
+    },
+    {
+      "label": "拆 evidence",
+      "time": "00:29"
+    },
+    {
+      "label": "发现 gap",
+      "time": "00:58"
+    }
+  ]
+}

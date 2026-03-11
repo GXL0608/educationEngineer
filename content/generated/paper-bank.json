@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "exam-force-unit",
+      "stage": "K12",
+      "subject": "物理",
+      "courseId": "k12-physics-forces",
+      "chapterId": "force-1",
+      "title": "受力分析单元卷",
+      "paperType": "chapter_exam",
+      "durationMinutes": 35,
+      "questionCount": 2
+    },
+    {
+      "id": "exam-newton-second",
+      "stage": "K12",
+      "subject": "物理",
+      "courseId": "k12-physics-forces",
+      "chapterId": "force-2",
+      "title": "牛顿第二定律专题卷",
+      "paperType": "chapter_exam",
+      "durationMinutes": 45,
+      "questionCount": 1
+    },
+    {
+      "id": "exam-series-mid",
+      "stage": "undergraduate",
+      "subject": "数学",
+      "courseId": "ug-calculus-series",
+      "chapterId": "series-1",
+      "title": "级数与收敛性章节卷",
+      "paperType": "chapter_exam",
+      "durationMinutes": 60,
+      "questionCount": 1
+    },
+    {
+      "id": "exam-research-design",
+      "stage": "master",
+      "subject": "研究方法",
+      "courseId": "master-research-methods",
+      "chapterId": "rm-1",
+      "title": "研究设计专题训练",
+      "paperType": "chapter_exam",
+      "durationMinutes": 50,
+      "questionCount": 1
+    },
+    {
+      "id": "exam-evidence-chain",
+      "stage": "doctor",
+      "subject": "学术研究",
+      "courseId": "doctor-frontier-reading",
+      "chapterId": "phd-1",
+      "title": "文献证据链分析卷",
+      "paperType": "chapter_exam",
+      "durationMinutes": 40,
+      "questionCount": 1
+    },
+    {
+      "id": "approved-k12-chemistry-ion-reaction-exam",
+      "stage": "K12",
+      "subject": "化学",
+      "courseId": "approved-k12-chemistry-ion-reaction",
+      "chapterId": "approved-k12-chemistry-ion-reaction-chapter-1",
+      "title": "高中化学：离子反应与离子方程式 导入专题卷",
+      "paperType": "chapter_exam",
+      "durationMinutes": 36,
+      "questionCount": 3
+    }
+  ]
+}

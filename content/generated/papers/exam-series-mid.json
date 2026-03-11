@@ -1,0 +1,35 @@
+{
+  "id": "exam-series-mid",
+  "title": "级数与收敛性章节卷",
+  "stage": "undergraduate",
+  "subject": "数学",
+  "course": {
+    "id": "ug-calculus-series",
+    "title": "高等数学：级数与收敛性"
+  },
+  "chapter": {
+    "id": "series-1",
+    "title": "数项级数与判别法"
+  },
+  "paperType": "chapter_exam",
+  "durationMinutes": 60,
+  "questionIds": [
+    "question-practice-series-criteria-1"
+  ],
+  "sections": [
+    {
+      "id": "exam-series-mid-section-1",
+      "title": "基础题 10 题",
+      "targetCount": 10,
+      "questionIds": [
+        "question-practice-series-criteria-1"
+      ]
+    },
+    {
+      "id": "exam-series-mid-section-2",
+      "title": "证明题 3 题",
+      "targetCount": 3,
+      "questionIds": []
+    }
+  ]
+}

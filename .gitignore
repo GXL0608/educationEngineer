@@ -1,0 +1,17 @@
+node_modules
+dist
+.vite
+.DS_Store
+coverage
+playwright-report
+test-results
+pnpm-lock.yaml
+__pycache__
+.pytest_cache
+.venv
+*.pyc
+apps/ai-service/.venv
+program/ARTIFACTS/*
+!program/ARTIFACTS/README.md
+runtime/*
+!runtime/README.md

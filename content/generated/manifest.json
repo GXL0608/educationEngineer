@@ -1,0 +1,51 @@
+{
+  "builtAt": "2026-03-11T09:04:19+00:00",
+  "sourcePath": "content/raw/curriculum-source.json",
+  "outputDir": "content/generated",
+  "stageCount": 4,
+  "courseCount": 5,
+  "chapterCount": 6,
+  "lessonCount": 6,
+  "conceptCount": 6,
+  "practiceCount": 6,
+  "examCount": 6,
+  "researchCount": 3,
+  "questionCount": 9,
+  "paperCount": 6,
+  "noteCount": 4,
+  "reviewCount": 2,
+  "searchIndexCount": 38,
+  "approvedImportCount": 1,
+  "approvedImports": [
+    {
+      "courseId": "approved-k12-chemistry-ion-reaction",
+      "title": "高中化学：离子反应与离子方程式",
+      "stage": "K12",
+      "subject": "化学",
+      "sourceName": "k12-chemistry-ion-reaction",
+      "artifactPath": "content/review/approved/import-k12-chemistry-ion-reaction-01db58266f.json"
+    }
+  ],
+  "courses": [
+    {
+      "id": "k12-physics-forces",
+      "title": "高中物理：牛顿运动定律"
+    },
+    {
+      "id": "ug-calculus-series",
+      "title": "高等数学：级数与收敛性"
+    },
+    {
+      "id": "master-research-methods",
+      "title": "硕士研究方法：研究问题与研究设计"
+    },
+    {
+      "id": "doctor-frontier-reading",
+      "title": "博士前沿文献精读：论证链与证据链"
+    },
+    {
+      "id": "approved-k12-chemistry-ion-reaction",
+      "title": "高中化学：离子反应与离子方程式"
+    }
+  ]
+}
