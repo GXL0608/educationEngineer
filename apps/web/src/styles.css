@@ -63,7 +63,7 @@ textarea {
 }
 
 .app-shell--exam {
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 15.5rem minmax(0, 1fr);
 }
 
 .app-shell.theme-ocean {
@@ -84,6 +84,10 @@ textarea {
   padding: 1rem 0.75rem 1rem;
   border-right: 1px solid var(--line);
   background: var(--surface);
+}
+
+.app-shell__sidebar--exam {
+  justify-content: flex-start;
 }
 
 .shell-brand {
@@ -155,6 +159,7 @@ textarea {
 .nav-list__item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   min-height: 2.75rem;
   padding: 0.6rem 0.8rem;
   border: 1px solid transparent;
@@ -162,6 +167,12 @@ textarea {
   color: #344054;
   font-weight: 600;
   transition: 150ms ease;
+}
+
+.nav-list__item small {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 
 .nav-list__item:hover {
@@ -172,6 +183,13 @@ textarea {
   border-color: #dfe3ff;
   background: var(--primary-soft);
   color: var(--primary);
+}
+
+.nav-list__meta {
+  padding: 0.55rem 0.8rem;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
 }
 
 .host-controls {

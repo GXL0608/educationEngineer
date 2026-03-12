@@ -1,14 +1,7 @@
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter
 
-from app.models import ContentImportRequest, ContentIngestRequest, QuestionBankRequest, ReviewDecisionRequest, ScriptGenerateRequest
-from app.services.content_factory import build_generated_assets, read_generated_manifest, read_release_manifest, summarize_source
-from app.services.import_pipeline import (
-    apply_review_decision,
-    create_import_job,
-    import_batch_from_inbox,
-    list_pipeline_state,
-    review_task_detail,
-)
+from app.models import ContentIngestRequest, QuestionBankRequest, ScriptGenerateRequest
+from app.services.content_factory import build_generated_assets, read_generated_manifest, summarize_source
 
 router = APIRouter(prefix="/pipeline", tags=["pipeline"])
 
@@ -69,59 +62,3 @@ def build_packages() -> dict:
 def get_generated_manifest() -> dict:
     return read_generated_manifest()
 
-
-@router.get("/release-manifest")
-def get_release_manifest() -> dict:
-    return read_release_manifest()
-
-
-@router.get("/state")
-def get_pipeline_state() -> dict:
-    return list_pipeline_state()
-
-
-@router.post("/imports")
-def create_import(request: ContentImportRequest) -> dict:
-    return create_import_job(request.model_dump())
-
-
-@router.post("/imports/batch")
-def run_batch_import() -> dict:
-    return import_batch_from_inbox()
-
-
-@router.get("/imports")
-def get_import_jobs() -> dict:
-    return {"items": list_pipeline_state()["jobs"]}
-
-
-@router.get("/reviews")
-def get_review_tasks(status: str | None = Query(default=None)) -> dict:
-    state = list_pipeline_state()
-    if status:
-        return {"items": [item for item in state["reviews"] if item["status"] == status]}
-    return {"items": state["reviews"]}
-
-
-@router.get("/reviews/{task_id}")
-def get_review_task(task_id: str) -> dict:
-    detail = review_task_detail(task_id)
-    if detail is None:
-        raise HTTPException(status_code=404, detail="Review task not found")
-    return detail
-
-
-@router.post("/reviews/{task_id}/approve")
-def approve_review(task_id: str, request: ReviewDecisionRequest) -> dict:
-    result = apply_review_decision(task_id, reviewer=request.reviewer, notes=request.notes, decision="approved")
-    if result is None:
-        raise HTTPException(status_code=404, detail="Review task not found")
-    return result
-
-
-@router.post("/reviews/{task_id}/reject")
-def reject_review(task_id: str, request: ReviewDecisionRequest) -> dict:
-    result = apply_review_decision(task_id, reviewer=request.reviewer, notes=request.notes, decision="changes_requested")
-    if result is None:
-        raise HTTPException(status_code=404, detail="Review task not found")
-    return result
