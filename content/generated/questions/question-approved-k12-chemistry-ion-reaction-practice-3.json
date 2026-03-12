@@ -16,10 +16,15 @@
   ],
   "type": "简答题",
   "stem": "围绕“高中化学：离子反应与离子方程式延伸研究”解释这段材料的核心判断：遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。",
+  "material": null,
   "choices": [],
   "answer": "遇到复分解反应时，要同时检查生成物是否会形成沉淀、气体或难电离物质。没有真实驱动力的“交换”并不能构成有效离子反应。",
   "analysis": "高中化学：离子反应与离子方程式延伸研究",
   "difficulty": "medium",
+  "score": null,
+  "category": null,
+  "sourceLabel": null,
+  "rubric": null,
   "source": {
     "kind": "practice",
     "practiceId": "approved-k12-chemistry-ion-reaction-practice"

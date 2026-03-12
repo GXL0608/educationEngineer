@@ -1,0 +1,32 @@
+{
+  "id": "question-practice-force-set-3",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-1",
+    "title": "力与受力分析"
+  },
+  "knowledgePoints": [
+    "受力分析概念画布",
+    "从情境到受力图"
+  ],
+  "type": "作图说明题",
+  "stem": "请说明该物块受力图中应该画出哪些力，并指出每个力的方向。",
+  "material": "一个放在水平桌面上的物块，在水平方向受到向右的拉力 F，物块保持匀速直线运动。",
+  "choices": [],
+  "answer": "应画出重力竖直向下、桌面对物块的支持力竖直向上、拉力水平向右、摩擦力水平向左。",
+  "analysis": "匀速直线运动说明物块在水平方向受力平衡，因此拉力与摩擦力大小相等、方向相反。",
+  "difficulty": "medium",
+  "score": 12,
+  "category": "作图训练",
+  "sourceLabel": "教材同步习题 3",
+  "rubric": null,
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-force-set"
+  }
+}

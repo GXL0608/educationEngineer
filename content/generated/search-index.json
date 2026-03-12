@@ -16,25 +16,25 @@
       "id": "lesson-force-focus",
       "type": "lesson",
       "title": "力与受力分析",
-      "summary": "第一步不是代公式，而是先把系统边界画清楚。没有边界，所有的力都会混进来。"
+      "summary": "在教材中讨论受力问题时，第一步永远不是列公式，而是先明确研究对象。只有把“研究谁”说清楚，后面判断哪些力属于该物体、哪些力属于外部系统才有依据。"
     },
     {
       "id": "concept-force-map",
       "type": "concept",
       "title": "受力分析概念画布",
-      "summary": "先定研究对象 / 再列力的来源和方向"
+      "summary": "先定研究对象 / 区分必然力与条件力"
     },
     {
       "id": "practice-force-set",
       "type": "practice",
-      "title": "受力分析训练集",
+      "title": "教材同步课后习题：受力分析",
       "summary": "区分必然力与条件力"
     },
     {
       "id": "exam-force-unit",
       "type": "exam",
       "title": "受力分析单元卷",
-      "summary": "35 分钟 · 选择题 8 题 / 受力图绘制 2 题 / 综合分析 1 题"
+      "summary": "30 分钟 · 一、单项选择题（共 2 题） / 二、受力图绘制题（共 1 题） / 三、综合分析题（共 1 题）"
     },
     {
       "id": "force-2",
@@ -226,6 +226,48 @@
       "id": "approved-k12-chemistry-ion-reaction-exam",
       "type": "exam",
       "title": "高中化学：离子反应与离子方程式 导入专题卷",
+      "summary": "36 分钟 · 导入题 3 题 / 迁移解释 1 题"
+    },
+    {
+      "id": "approved-master-education-causal-inference",
+      "type": "course",
+      "title": "硕士专题：教育政策研究中的因果识别",
+      "summary": "硕士 教育学 课程，含精读、概念、练习、考试和研究入口。"
+    },
+    {
+      "id": "approved-master-education-causal-inference-research",
+      "type": "research",
+      "title": "硕士专题：教育政策研究中的因果识别 研究工作台",
+      "summary": "教育政策研究最常见的误区，是把相关关系直接写成政策有效性的证据。没有识别策略，研究结论很难支撑因果主张。"
+    },
+    {
+      "id": "approved-master-education-causal-inference-chapter-1",
+      "type": "chapter",
+      "title": "硕士专题：教育政策研究中的因果识别 / 硕士专题：教育政策研究中的因果识别",
+      "summary": "教育政策研究最常见的误区，是把相关关系直接写成政策有效性的证据。没有识别策略，研究结论很难支撑因果主张。"
+    },
+    {
+      "id": "approved-master-education-causal-inference-lesson",
+      "type": "lesson",
+      "title": "硕士专题：教育政策研究中的因果识别",
+      "summary": "教育政策研究最常见的误区，是把相关关系直接写成政策有效性的证据。没有识别策略，研究结论很难支撑因果主张。"
+    },
+    {
+      "id": "approved-master-education-causal-inference-concept",
+      "type": "concept",
+      "title": "硕士专题：教育政策研究中的因果识别 概念图",
+      "summary": "问题导入 / 概念拆解"
+    },
+    {
+      "id": "approved-master-education-causal-inference-practice",
+      "type": "practice",
+      "title": "硕士专题：教育政策研究中的因果识别 导入题组",
+      "summary": "教育学核心概念"
+    },
+    {
+      "id": "approved-master-education-causal-inference-exam",
+      "type": "exam",
+      "title": "硕士专题：教育政策研究中的因果识别 导入专题卷",
       "summary": "36 分钟 · 导入题 3 题 / 迁移解释 1 题"
     }
   ]

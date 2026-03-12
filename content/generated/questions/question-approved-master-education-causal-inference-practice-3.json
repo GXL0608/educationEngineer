@@ -1,0 +1,32 @@
+{
+  "id": "question-approved-master-education-causal-inference-practice-3",
+  "stage": "master",
+  "subject": "教育学",
+  "course": {
+    "id": "approved-master-education-causal-inference",
+    "title": "硕士专题：教育政策研究中的因果识别"
+  },
+  "chapter": {
+    "id": "approved-master-education-causal-inference-chapter-1",
+    "title": "硕士专题：教育政策研究中的因果识别"
+  },
+  "knowledgePoints": [
+    "硕士专题：教育政策研究中的因果识别 概念图",
+    "硕士专题：教育政策研究中的因果识别延伸研究"
+  ],
+  "type": "论述题",
+  "stem": "围绕“硕士专题：教育政策研究中的因果识别延伸研究”解释这段材料的核心判断：真正高质量的政策研究，不只是报告一个显著系数，而是说明识别假设为何成立、威胁来自哪里，以及稳健性检验是否足够。",
+  "material": null,
+  "choices": [],
+  "answer": "真正高质量的政策研究，不只是报告一个显著系数，而是说明识别假设为何成立、威胁来自哪里，以及稳健性检验是否足够。",
+  "analysis": "硕士专题：教育政策研究中的因果识别延伸研究",
+  "difficulty": "hard",
+  "score": null,
+  "category": null,
+  "sourceLabel": null,
+  "rubric": null,
+  "source": {
+    "kind": "practice",
+    "practiceId": "approved-master-education-causal-inference-practice"
+  }
+}

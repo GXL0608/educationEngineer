@@ -16,10 +16,15 @@
   ],
   "type": "简答题",
   "stem": "围绕“化学核心概念”解释这段材料的核心判断：离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
+  "material": null,
   "choices": [],
   "answer": "离子反应的关键不是死记哪些物质能溶于水，而是先判断体系里哪些粒子真正参与了变化。",
   "analysis": "化学核心概念",
   "difficulty": "easy",
+  "score": null,
+  "category": null,
+  "sourceLabel": null,
+  "rubric": null,
   "source": {
     "kind": "practice",
     "practiceId": "approved-k12-chemistry-ion-reaction-practice"

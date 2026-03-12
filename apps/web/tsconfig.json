@@ -16,7 +16,15 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": [
+    "src/main.tsx",
+    "src/router.tsx",
+    "src/vite-env.d.ts",
+    "src/components/**/*.tsx",
+    "src/lib/**/*.ts",
+    "src/pages/exam.tsx",
+    "src/store/**/*.ts"
+  ],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"],
   "references": []
 }
-

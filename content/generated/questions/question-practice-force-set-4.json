@@ -1,0 +1,32 @@
+{
+  "id": "question-practice-force-set-4",
+  "stage": "K12",
+  "subject": "物理",
+  "course": {
+    "id": "k12-physics-forces",
+    "title": "高中物理：牛顿运动定律"
+  },
+  "chapter": {
+    "id": "force-1",
+    "title": "力与受力分析"
+  },
+  "knowledgePoints": [
+    "受力分析概念画布",
+    "区分受力与施力"
+  ],
+  "type": "情境分析题",
+  "stem": "请指出这张受力图的问题，并说明正确的处理方法。",
+  "material": "一名同学在分析悬挂小球时，把绳子对球的拉力和球对绳子的拉力都画在了同一张受力图中。",
+  "choices": [],
+  "answer": "错误在于把作用力和反作用力同时画在同一个研究对象的受力图中。若研究对象是小球，只能画重力和绳子对球的拉力；球对绳子的拉力应画在绳子的受力分析中。",
+  "analysis": "受力图只画研究对象所受的力，不画研究对象对外界施加的力。",
+  "difficulty": "medium",
+  "score": 14,
+  "category": "错因辨析",
+  "sourceLabel": "教材同步习题 4",
+  "rubric": null,
+  "source": {
+    "kind": "practice",
+    "practiceId": "practice-force-set"
+  }
+}

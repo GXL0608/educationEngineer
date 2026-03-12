@@ -18,7 +18,7 @@ describe("api host headers", () => {
     });
   });
 
-  it("sends host identity headers with user-scoped requests", async () => {
+  it("sends host identity headers with exam requests", async () => {
     useHostStore.setState({
       hostUserId: "real-user-7",
       hostUserToken: "opaque-token",
@@ -29,13 +29,13 @@ describe("api host headers", () => {
     });
 
     const fetchSpy = vi.spyOn(globalThis, "fetch").mockResolvedValue(
-      new Response(JSON.stringify({ userId: "real-user-7", items: [] }), {
+      new Response(JSON.stringify({ item: { id: "exam-force", title: "样卷", durationMinutes: 60, sections: [] } }), {
         status: 200,
         headers: { "Content-Type": "application/json" }
       })
     );
 
-    await api.getSearchHistory();
+    await api.getExam("exam-force");
 
     expect(fetchSpy).toHaveBeenCalledTimes(1);
     const init = fetchSpy.mock.calls[0]?.[1];

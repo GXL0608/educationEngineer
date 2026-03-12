@@ -13,6 +13,13 @@
   },
   "paperType": "chapter_exam",
   "durationMinutes": 36,
+  "fullScore": 100,
+  "header": null,
+  "instructions": [
+    "选择题请在答题区填涂，非选择题请写出关键判断依据。",
+    "先审题、再画受力图或列关系式，最后检查边界条件。"
+  ],
+  "answerSheetRules": [],
   "questionIds": [
     "question-approved-k12-chemistry-ion-reaction-practice-1",
     "question-approved-k12-chemistry-ion-reaction-practice-2",
@@ -23,6 +30,9 @@
       "id": "approved-k12-chemistry-ion-reaction-exam-section-1",
       "title": "导入题 3 题",
       "targetCount": 3,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": [
         "question-approved-k12-chemistry-ion-reaction-practice-1",
         "question-approved-k12-chemistry-ion-reaction-practice-3"
@@ -32,6 +42,9 @@
       "id": "approved-k12-chemistry-ion-reaction-exam-section-2",
       "title": "迁移解释 1 题",
       "targetCount": 1,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": [
         "question-approved-k12-chemistry-ion-reaction-practice-2"
       ]

@@ -15,11 +15,16 @@
     "联立求解"
   ],
   "type": "简答题",
-  "stem": "同一题目中合力公式和约束方程为什么必须一起用？",
+  "stem": "同一题目中为什么常常需要把合力公式和约束关系联立起来求解？",
+  "material": null,
   "choices": [],
-  "answer": "因为未知量往往不止一个，单独用 F=ma 无法解出目标量。",
-  "analysis": "联立求解",
+  "answer": "因为未知量往往不止一个，单独使用 F=ma 无法确定目标量，需要借助位移、速度、绳长或几何关系等约束方程共同求解。",
+  "analysis": "牛顿第二定律提供动力学关系，约束关系提供变量之间的附加联系，二者联立才能闭合求解。",
   "difficulty": "easy",
+  "score": 8,
+  "category": "概念理解",
+  "sourceLabel": "专题训练 1",
+  "rubric": null,
   "source": {
     "kind": "practice",
     "practiceId": "practice-newton-second"

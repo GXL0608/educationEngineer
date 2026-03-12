@@ -1,0 +1,32 @@
+{
+  "id": "question-approved-master-education-causal-inference-practice-1",
+  "stage": "master",
+  "subject": "教育学",
+  "course": {
+    "id": "approved-master-education-causal-inference",
+    "title": "硕士专题：教育政策研究中的因果识别"
+  },
+  "chapter": {
+    "id": "approved-master-education-causal-inference-chapter-1",
+    "title": "硕士专题：教育政策研究中的因果识别"
+  },
+  "knowledgePoints": [
+    "硕士专题：教育政策研究中的因果识别 概念图",
+    "教育学核心概念"
+  ],
+  "type": "论述题",
+  "stem": "围绕“教育学核心概念”解释这段材料的核心判断：教育政策研究最常见的误区，是把相关关系直接写成政策有效性的证据。没有识别策略，研究结论很难支撑因果主张。",
+  "material": null,
+  "choices": [],
+  "answer": "教育政策研究最常见的误区，是把相关关系直接写成政策有效性的证据。没有识别策略，研究结论很难支撑因果主张。",
+  "analysis": "教育学核心概念",
+  "difficulty": "medium",
+  "score": null,
+  "category": null,
+  "sourceLabel": null,
+  "rubric": null,
+  "source": {
+    "kind": "practice",
+    "practiceId": "approved-master-education-causal-inference-practice"
+  }
+}

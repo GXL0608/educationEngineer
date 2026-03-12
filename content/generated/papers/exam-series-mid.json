@@ -13,6 +13,13 @@
   },
   "paperType": "chapter_exam",
   "durationMinutes": 60,
+  "fullScore": 100,
+  "header": null,
+  "instructions": [
+    "选择题请在答题区填涂，非选择题请写出关键判断依据。",
+    "先审题、再画受力图或列关系式，最后检查边界条件。"
+  ],
+  "answerSheetRules": [],
   "questionIds": [
     "question-practice-series-criteria-1"
   ],
@@ -21,6 +28,9 @@
       "id": "exam-series-mid-section-1",
       "title": "基础题 10 题",
       "targetCount": 10,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": [
         "question-practice-series-criteria-1"
       ]
@@ -29,6 +39,9 @@
       "id": "exam-series-mid-section-2",
       "title": "证明题 3 题",
       "targetCount": 3,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": []
     }
   ]

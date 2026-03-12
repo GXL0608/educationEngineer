@@ -13,6 +13,13 @@
   },
   "paperType": "chapter_exam",
   "durationMinutes": 40,
+  "fullScore": 100,
+  "header": null,
+  "instructions": [
+    "选择题请在答题区填涂，非选择题请写出关键判断依据。",
+    "先审题、再画受力图或列关系式，最后检查边界条件。"
+  ],
+  "answerSheetRules": [],
   "questionIds": [
     "question-practice-evidence-chain-1"
   ],
@@ -21,6 +28,9 @@
       "id": "exam-evidence-chain-section-1",
       "title": "claim 提取 5 题",
       "targetCount": 5,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": [
         "question-practice-evidence-chain-1"
       ]
@@ -29,6 +39,9 @@
       "id": "exam-evidence-chain-section-2",
       "title": "evidence mapping 2 题",
       "targetCount": 2,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": []
     }
   ]

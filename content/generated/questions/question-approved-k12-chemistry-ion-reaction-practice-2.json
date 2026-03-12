@@ -16,10 +16,15 @@
   ],
   "type": "简答题",
   "stem": "围绕“高中化学：离子反应与离子方程式训练题型”解释这段材料的核心判断：书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。",
+  "material": null,
   "choices": [],
   "answer": "书写离子方程式时，强电解质通常拆成离子，弱电解质、沉淀和气体一般保留分子形式。只有理解保留与拆分背后的化学意义，方程式才不会机械出错。",
   "analysis": "高中化学：离子反应与离子方程式训练题型",
   "difficulty": "medium",
+  "score": null,
+  "category": null,
+  "sourceLabel": null,
+  "rubric": null,
   "source": {
     "kind": "practice",
     "practiceId": "approved-k12-chemistry-ion-reaction-practice"

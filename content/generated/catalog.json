@@ -157,6 +157,31 @@
         "practices": 3,
         "reports": "导入专题学习报告 + 审核追踪"
       }
+    },
+    {
+      "id": "approved-master-education-causal-inference",
+      "stage": "master",
+      "subject": "教育学",
+      "title": "硕士专题：教育政策研究中的因果识别",
+      "audience": "master 教育学 导入专题 / 审核通过内容",
+      "description": "由审核通过的导入内容自动转换为正式课程包，进入课程宇宙发布链路。",
+      "chapters": [
+        {
+          "id": "approved-master-education-causal-inference-chapter-1",
+          "title": "硕士专题：教育政策研究中的因果识别",
+          "summary": "教育政策研究最常见的误区，是把相关关系直接写成政策有效性的证据。没有识别策略，研究结论很难支撑因果主张。",
+          "lessonId": "approved-master-education-causal-inference-lesson",
+          "conceptId": "approved-master-education-causal-inference-concept",
+          "practiceId": "approved-master-education-causal-inference-practice",
+          "examId": "approved-master-education-causal-inference-exam",
+          "paperId": "approved-master-education-causal-inference-research"
+        }
+      ],
+      "metrics": {
+        "lessons": 1,
+        "practices": 3,
+        "reports": "导入专题学习报告 + 审核追踪"
+      }
     }
   ]
 }

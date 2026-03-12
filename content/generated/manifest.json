@@ -1,21 +1,21 @@
 {
-  "builtAt": "2026-03-11T09:04:19+00:00",
+  "builtAt": "2026-03-11T14:27:05+00:00",
   "sourcePath": "content/raw/curriculum-source.json",
   "outputDir": "content/generated",
   "stageCount": 4,
-  "courseCount": 5,
-  "chapterCount": 6,
-  "lessonCount": 6,
-  "conceptCount": 6,
-  "practiceCount": 6,
-  "examCount": 6,
-  "researchCount": 3,
-  "questionCount": 9,
-  "paperCount": 6,
-  "noteCount": 4,
+  "courseCount": 6,
+  "chapterCount": 7,
+  "lessonCount": 7,
+  "conceptCount": 7,
+  "practiceCount": 7,
+  "examCount": 7,
+  "researchCount": 4,
+  "questionCount": 15,
+  "paperCount": 7,
+  "noteCount": 5,
   "reviewCount": 2,
-  "searchIndexCount": 38,
-  "approvedImportCount": 1,
+  "searchIndexCount": 45,
+  "approvedImportCount": 2,
   "approvedImports": [
     {
       "courseId": "approved-k12-chemistry-ion-reaction",
@@ -24,6 +24,14 @@
       "subject": "化学",
       "sourceName": "k12-chemistry-ion-reaction",
       "artifactPath": "content/review/approved/import-k12-chemistry-ion-reaction-01db58266f.json"
+    },
+    {
+      "courseId": "approved-master-education-causal-inference",
+      "title": "硕士专题：教育政策研究中的因果识别",
+      "stage": "master",
+      "subject": "教育学",
+      "sourceName": "master-education-causal-inference",
+      "artifactPath": "content/review/approved/import-master-education-causal-inference-8ce942b4d0.json"
     }
   ],
   "courses": [
@@ -46,6 +54,10 @@
     {
       "id": "approved-k12-chemistry-ion-reaction",
       "title": "高中化学：离子反应与离子方程式"
+    },
+    {
+      "id": "approved-master-education-causal-inference",
+      "title": "硕士专题：教育政策研究中的因果识别"
     }
   ]
 }

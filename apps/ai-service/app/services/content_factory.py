@@ -230,6 +230,10 @@ def _infer_question_type(stage: str) -> str:
     }.get(stage, "简答题")
 
 
+def _resolve_question_type(practice_item: dict[str, Any], stage: str) -> str:
+    return practice_item.get("type") or _infer_question_type(stage)
+
+
 def _infer_difficulty(stage: str, index: int) -> str:
     mapping = {
         "K12": ["easy", "medium", "medium"],
@@ -252,6 +256,33 @@ def _allocate_question_ids(question_ids: list[str], section_index: int, section_
     if not question_ids:
         return []
     return [question_id for index, question_id in enumerate(question_ids) if index % section_total == section_index]
+
+
+def _resolve_exam_section_blueprints(exam: dict[str, Any], question_count: int) -> list[dict[str, Any]]:
+    section_meta = exam.get("sectionMeta")
+    if not section_meta:
+        labels = exam.get("sections", [])
+        return [
+            {
+                "title": label,
+                "targetCount": _section_target_count(label, question_count),
+            }
+            for label in labels
+        ]
+
+    blueprints: list[dict[str, Any]] = []
+    for item in section_meta:
+        label = item["title"]
+        blueprints.append(
+            {
+                "title": label,
+                "targetCount": item.get("targetCount", _section_target_count(label, question_count)),
+                "score": item.get("score"),
+                "answerMode": item.get("answerMode"),
+                "note": item.get("note"),
+            }
+        )
+    return blueprints
 
 
 def build_generated_assets(
@@ -340,12 +371,17 @@ def build_generated_assets(
                     "course": {"id": course["id"], "title": course["title"]},
                     "chapter": {"id": chapter["id"], "title": chapter["title"]},
                     "knowledgePoints": [concept["title"], practice_item["focus"]],
-                    "type": _infer_question_type(course["stage"]),
+                    "type": _resolve_question_type(practice_item, course["stage"]),
                     "stem": practice_item["prompt"],
-                    "choices": [],
+                    "material": practice_item.get("material"),
+                    "choices": practice_item.get("choices", []),
                     "answer": practice_item["answer"],
-                    "analysis": practice_item["focus"],
-                    "difficulty": _infer_difficulty(course["stage"], question_index),
+                    "analysis": practice_item.get("analysis", practice_item["focus"]),
+                    "difficulty": practice_item.get("difficulty", _infer_difficulty(course["stage"], question_index)),
+                    "score": practice_item.get("score"),
+                    "category": practice_item.get("category"),
+                    "sourceLabel": practice_item.get("sourceLabel"),
+                    "rubric": practice_item.get("rubric"),
                     "source": {"kind": "practice", "practiceId": practice["id"]},
                 }
                 questions[question_id] = question_payload
@@ -364,14 +400,18 @@ def build_generated_assets(
                     }
                 )
 
+            section_blueprints = _resolve_exam_section_blueprints(exam, len(chapter_question_ids))
             paper_sections = []
-            for section_index, section_label in enumerate(exam["sections"]):
+            for section_index, blueprint in enumerate(section_blueprints):
                 paper_sections.append(
                     {
                         "id": f"{exam['id']}-section-{section_index + 1}",
-                        "title": section_label,
-                        "targetCount": _section_target_count(section_label, len(chapter_question_ids)),
-                        "questionIds": _allocate_question_ids(chapter_question_ids, section_index, len(exam["sections"])),
+                        "title": blueprint["title"],
+                        "targetCount": blueprint["targetCount"],
+                        "score": blueprint.get("score"),
+                        "answerMode": blueprint.get("answerMode"),
+                        "note": blueprint.get("note"),
+                        "questionIds": _allocate_question_ids(chapter_question_ids, section_index, len(section_blueprints)),
                     }
                 )
 
@@ -384,6 +424,16 @@ def build_generated_assets(
                 "chapter": {"id": chapter["id"], "title": chapter["title"]},
                 "paperType": "chapter_exam",
                 "durationMinutes": exam["durationMinutes"],
+                "fullScore": exam.get("fullScore", 100),
+                "header": exam.get("header"),
+                "instructions": exam.get(
+                    "instructions",
+                    [
+                        "选择题请在答题区填涂，非选择题请写出关键判断依据。",
+                        "先审题、再画受力图或列关系式，最后检查边界条件。",
+                    ],
+                ),
+                "answerSheetRules": exam.get("answerSheetRules", []),
                 "questionIds": chapter_question_ids,
                 "sections": paper_sections,
             }

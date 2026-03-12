@@ -13,14 +13,34 @@
   },
   "paperType": "chapter_exam",
   "durationMinutes": 45,
+  "fullScore": 100,
+  "header": {
+    "schoolYear": "同步学习专题检测",
+    "grade": "高中一年级",
+    "subjectLabel": "物理",
+    "examType": "牛顿第二定律专题卷",
+    "volume": "必修第一册"
+  },
+  "instructions": [
+    "选择题请在答题区填涂，非选择题请写出关键判断依据。",
+    "先审题、再画受力图或列关系式，最后检查边界条件。"
+  ],
+  "answerSheetRules": [
+    "计算题应写出受力分析、公式列写和联立求解过程。",
+    "只写最终答案但无关键步骤，将影响过程分。"
+  ],
   "questionIds": [
-    "question-practice-newton-second-1"
+    "question-practice-newton-second-1",
+    "question-practice-newton-second-2"
   ],
   "sections": [
     {
       "id": "exam-newton-second-section-1",
       "title": "选择题 6 题",
       "targetCount": 6,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": [
         "question-practice-newton-second-1"
       ]
@@ -29,12 +49,20 @@
       "id": "exam-newton-second-section-2",
       "title": "计算题 3 题",
       "targetCount": 3,
-      "questionIds": []
+      "score": null,
+      "answerMode": null,
+      "note": null,
+      "questionIds": [
+        "question-practice-newton-second-2"
+      ]
     },
     {
       "id": "exam-newton-second-section-3",
       "title": "压轴迁移题 1 题",
       "targetCount": 1,
+      "score": null,
+      "answerMode": null,
+      "note": null,
       "questionIds": []
     }
   ]

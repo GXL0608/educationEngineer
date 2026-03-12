@@ -8,8 +8,8 @@
       "chapterId": "force-1",
       "title": "受力分析单元卷",
       "paperType": "chapter_exam",
-      "durationMinutes": 35,
-      "questionCount": 2
+      "durationMinutes": 30,
+      "questionCount": 4
     },
     {
       "id": "exam-newton-second",
@@ -20,7 +20,7 @@
       "title": "牛顿第二定律专题卷",
       "paperType": "chapter_exam",
       "durationMinutes": 45,
-      "questionCount": 1
+      "questionCount": 2
     },
     {
       "id": "exam-series-mid",
@@ -62,6 +62,17 @@
       "courseId": "approved-k12-chemistry-ion-reaction",
       "chapterId": "approved-k12-chemistry-ion-reaction-chapter-1",
       "title": "高中化学：离子反应与离子方程式 导入专题卷",
+      "paperType": "chapter_exam",
+      "durationMinutes": 36,
+      "questionCount": 3
+    },
+    {
+      "id": "approved-master-education-causal-inference-exam",
+      "stage": "master",
+      "subject": "教育学",
+      "courseId": "approved-master-education-causal-inference",
+      "chapterId": "approved-master-education-causal-inference-chapter-1",
+      "title": "硕士专题：教育政策研究中的因果识别 导入专题卷",
       "paperType": "chapter_exam",
       "durationMinutes": 36,
       "questionCount": 3

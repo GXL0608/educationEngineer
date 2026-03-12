@@ -15,11 +15,16 @@
     "边界优先"
   ],
   "type": "简答题",
-  "stem": "为什么先画研究对象再列力，而不是反过来？",
+  "stem": "为什么受力分析时必须先确定研究对象，再判断有哪些力？",
+  "material": null,
   "choices": [],
-  "answer": "因为力的归属依赖研究对象，研究对象不清就会把外部系统的力混入。",
-  "analysis": "边界优先",
+  "answer": "因为力的归属依赖研究对象。研究对象不明确，就会把外部系统的力、作用力与反作用力或者不属于该物体的力混入同一张受力图。",
+  "analysis": "受力分析的第一原则是边界优先，先研究谁，再谈受什么力。",
   "difficulty": "medium",
+  "score": 8,
+  "category": "概念辨析",
+  "sourceLabel": "教材同步习题 2",
+  "rubric": null,
   "source": {
     "kind": "practice",
     "practiceId": "practice-force-set"

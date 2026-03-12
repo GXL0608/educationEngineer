@@ -12,33 +12,65 @@
     "title": "力与受力分析"
   },
   "paperType": "chapter_exam",
-  "durationMinutes": 35,
+  "durationMinutes": 30,
+  "fullScore": 40,
+  "header": {
+    "schoolYear": "同步学习单元检测",
+    "grade": "高中一年级",
+    "subjectLabel": "物理",
+    "examType": "第二章 受力分析专题测试",
+    "volume": "必修第一册"
+  },
+  "instructions": [
+    "本卷满分 40 分，考试时间 30 分钟。",
+    "选择题请在答题区填涂答案；作图题请先画图后标出力的名称与方向。",
+    "综合分析题应写出研究对象、受力依据和结论，不得只写最终答案。"
+  ],
+  "answerSheetRules": [
+    "作答前请先阅读题干中的研究对象和约束条件。",
+    "受力图应使用清晰箭头表示力的方向，名称标注在箭头旁。",
+    "非选择题按步骤给分，请尽量写出判断依据。"
+  ],
   "questionIds": [
     "question-practice-force-set-1",
-    "question-practice-force-set-2"
+    "question-practice-force-set-2",
+    "question-practice-force-set-3",
+    "question-practice-force-set-4"
   ],
   "sections": [
     {
       "id": "exam-force-unit-section-1",
-      "title": "选择题 8 题",
-      "targetCount": 8,
+      "title": "一、单项选择题（共 2 题）",
+      "targetCount": 2,
+      "score": 12,
+      "answerMode": "填涂答案",
+      "note": "每题 6 分。在每题给出的四个选项中，只有一项符合题目要求。",
       "questionIds": [
-        "question-practice-force-set-1"
+        "question-practice-force-set-1",
+        "question-practice-force-set-4"
       ]
     },
     {
       "id": "exam-force-unit-section-2",
-      "title": "受力图绘制 2 题",
-      "targetCount": 2,
+      "title": "二、受力图绘制题（共 1 题）",
+      "targetCount": 1,
+      "score": 12,
+      "answerMode": "画图作答",
+      "note": "要求标明研究对象所受各力的方向和名称。",
       "questionIds": [
         "question-practice-force-set-2"
       ]
     },
     {
       "id": "exam-force-unit-section-3",
-      "title": "综合分析 1 题",
+      "title": "三、综合分析题（共 1 题）",
       "targetCount": 1,
-      "questionIds": []
+      "score": 16,
+      "answerMode": "文字说明",
+      "note": "要求写清研究对象、受力判断依据和最终结论。",
+      "questionIds": [
+        "question-practice-force-set-3"
+      ]
     }
   ]
 }

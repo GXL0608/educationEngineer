@@ -2,6 +2,17 @@
   "id": "exam-newton-second",
   "title": "牛顿第二定律专题卷",
   "durationMinutes": 45,
+  "header": {
+    "schoolYear": "同步学习专题检测",
+    "grade": "高中一年级",
+    "subjectLabel": "物理",
+    "examType": "牛顿第二定律专题卷",
+    "volume": "必修第一册"
+  },
+  "answerSheetRules": [
+    "计算题应写出受力分析、公式列写和联立求解过程。",
+    "只写最终答案但无关键步骤，将影响过程分。"
+  ],
   "sections": [
     "选择题 6 题",
     "计算题 3 题",
